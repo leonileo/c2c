@@ -1,0 +1,27 @@
+{% extends 'admin_template.html' %}
+
+{% block title %} Register {% endblock %}
+
+{% block main %} 
+
+<h1 style="text-align: center;">Register</h1>
+
+<div class="reg">
+
+    <form action="/">
+        <label for="name">Name<input type="text" placeholder="Name" id="name"></label>
+        
+        <label for="Father Name">Father Name<input type="text" placeholder="Father Name" id="fname"></label>
+        
+        <label for="Gname">Grand Father Name<input type="text" placeholder="Grand Father Name" id="Gname"></label>
+        
+        <label for="phno">Phone number<input type="text" placeholder="Number" id="phno"></label>
+        
+        <label for="place">Place<input type="see" placeholder="place" id="place"></label>
+        
+        <button type="submit">Submit</button>
+    </form>
+    
+</div>
+
+{% endblock %}
